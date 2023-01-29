@@ -8,7 +8,7 @@ on:
   pull_request:
 
 permissions:
-  contents: read write execute
+  contents: write
 
 jobs:
   terraform:
