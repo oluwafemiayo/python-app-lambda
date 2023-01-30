@@ -10,7 +10,7 @@ jobs:
   terraform:
     name: 'Terraform'
     runs-on: 
-      - self-hosted
+      - ubuntu-latest
     
       
     env:
