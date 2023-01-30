@@ -11,8 +11,7 @@ jobs:
     name: 'Terraform'
     runs-on: 
       - self-hosted
-      - first
-      - label-1
+    
       
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
